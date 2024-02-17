@@ -40,7 +40,7 @@ std::string DigramStack::pop()
 {
     if (DigramStack::isEmpty())
     {
-        std::cout << "\nerror, underflow";
+        std::cout << "error, underflow\n";
         return "";
     }
     std::string returnDigram = DigramStack::digramStack[DigramStack::currentStackTop];
